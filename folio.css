@@ -216,7 +216,7 @@ p {
 /* Section projets */
 
 
-*#project {
+#project {
     padding: 100px 0;
 }
 
@@ -265,6 +265,56 @@ p {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+/* ===== Responsive Hero Photo ===== */
+
+@media (max-width: 1200px) {
+    .hero-photo {
+        right: 60px;
+        width: 350px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-photo {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        margin-top: 40px;
+
+        width: 300px;
+        height: 350px;
+    }
+
+    header.hero {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-photo {
+        width: 220px;
+        height: 260px;
+        margin: 30px auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-photo {
+        width: 180px;
+        height: 220px;
+    }
 }
 
 
