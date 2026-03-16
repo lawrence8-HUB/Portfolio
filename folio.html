@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="folio.css">
+</head>
+<body>
+    
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li class="has-sub">
+                <a href="#about">À propos</a>
+            </li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-photo">
+            <div class="loader"></div>
+            <img src="photo_pro.jpeg" alt="Ma photo">
+        </div>
+        <div class="container">
+            <h1>Bonjour je suis <span class="name">Koukel</span></h1>
+            <p class="subtitle">Future alternant dans votre entreprise</p>
+        </div>
+    </header>
+
+
+    <section id="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <div id="bio" class="about-block">
+                <h3>Qui suis-je</h3>
+                <p>Je suis EWANGA-NDE koukel.<br>
+                 Actuellement étudiant en première année je recherche une alternance en cybersécurité des systèmes et infrastructures qui me sera utile dans la réalistion de mes projets future.</p>
+            </div>
+            <div id="experience" class="about-block">
+                <h3>Expérience</h3>
+                <p>J'ai travaillé sur plusieurs projets, en exploitant plusieurs technologie dont Js, php, express et bien d'autres.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="skills">
+        <div class="container">
+            <h2>Compétences</h2>
+            <ul class="skills-list">
+                <li>HTML / CSS</li>
+                <li>JavaScript </li>
+                <li>Node.js / Express</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+    </section>
+
+  
+   <section id="project">
+    <div class="container">
+        <h2>Mes projets</h2>
+
+        <div class="project">
+
+            <div class="project-text">
+                <h3>Projet 1 : Site de location de voiture</h3>
+                <p>Contexte : Développement d'un site de location de voiture avec interface administrateur et utilisateur.</p>
+                <p><strong>Technologies :</strong> HTML, CSS, JavaScript, MySQL, PHP</p>
+            </div>
+
+            <div class="project-images">
+                <img src="Photo_location1.png" alt="location">
+                <img src="photo_location2.png" alt="location">
+            </div>
+
+        </div>
+
+
+        <div class="project">
+
+            <div class="project-text">
+                <h3>Projet 2 : Site d'un café ludique</h3>
+                <p>Contexte : Projet pédagogique réalisé en équipe dont le but etait de livrer un site  pour l'ouverture d'un café ludique.</p>
+                <p><strong>Technologies :</strong> Hostinger</p>
+            </div>
+
+            <div class="project-images">
+                <img src="photo_café1.png" alt="café">
+                <img src="photo_café2.png" alt="café">
+            </div>
+
+        </div>
+
+
+        <div class="project">
+
+            <div class="project-text">
+                <h3>Projet 3 : Mini Escape Game</h3>
+                <p>Contexte : Développement d'un mini jeu type escape Game ou le but etait de créer une expérience immersive pour les joueurs.</p>
+                <p><strong>Technologies :</strong> HTML, CSS, JavaScript, Node.js</p>
+            </div>
+
+            <div class="project-images">
+                <img src="escape_game1.png" alt="escape game">
+                <img src="escape_game2.png" alt="escape game">
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Vous pouvez me joindre à <a href="mailto:ewanga-nde@et.esiea.fr">ewanga-nde@et.esiea.fr</a></p>
+
+        </div>
+    </section>
+
+    <canvas id="network-canvas"></canvas>
+    <script src="folio.js"></script>
+</body>
+</html>
